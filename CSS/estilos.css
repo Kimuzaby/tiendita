@@ -1,0 +1,195 @@
+body{
+	
+	font-family: 'Roboto Condensed', sans-serif;
+}
+h2{
+	text-align: center;
+	color: black;
+	margin: 30px 0 50px;
+}
+
+.Tiendita{
+	margin: 10px 50px;
+	display: flex;
+}
+
+.elemento_1 {
+       position: fixed; 
+       height: 30px; 
+       top: 4; 
+       left:1045px; 
+       width: 100%; 
+}
+
+
+
+.Store{
+	max-width: 1100px;
+	width: 90%;
+	margin: auto;
+}
+
+
+
+
+
+.category_list{
+	display: flex;
+	flex-direction: column;
+	width: 15%;
+
+}
+
+.category_list  .category_item{
+	display: block;
+	width: 90%;
+	padding: 15px 0;
+	margin-bottom: 20%;
+	background: #ff7518;
+
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+
+
+}
+
+
+
+
+.products-list{
+	width: 82%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+
+.products-list .product-item{
+	width: 30%;
+	margin-left: 10%;
+	margin-bottom: 50px;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+}
+
+.products-list .product-item img{
+	width: 230px;
+	height: 150px;
+	padding: 5px;
+	filter: grayscale(500%);
+	transition: 1s;
+
+
+
+loko
+}
+
+.products-list .product-item img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+
+.products-list .product-item a{
+	display: block;
+	width: 100%;
+	padding: 8px 0;
+	background: #185F93; 
+
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+
+
+Parte 2
+
+.category_list{
+	display: flex;
+	flex-direction: column;
+	width: 18%;
+
+}
+
+.category_list  .category_item{
+	display: block;
+	width: 90%;
+	padding: 15px 0;
+	margin-bottom: 20%;
+	background: #ff7518;
+
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+
+
+}
+
+
+
+
+.products-list{
+	width: 82%;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+
+.products-list .product-item_0{
+	width: 30%;
+	margin-left: 10%;
+	margin-bottom: 50px;
+	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.22);
+
+	display: flex;
+	flex-direction: column;
+	align-self: flex-start;
+}
+
+.products-list .product-item_0 img{
+	width: 230px;
+	height: 150px;
+	padding: 5px;
+	filter: grayscale(500%);
+	transition: 1s;
+
+
+
+loko
+}
+
+.products-list .product-item_0 img:hover{
+	filter: grayscale(0);
+	transform: scale(1.1);
+}
+
+.products-list .product-item_0 a{
+	display: block;
+	width: 100%;
+	padding: 8px 0;
+	background: #185F93; 
+
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+
+
+.cart_anchor{ 
+    float:right; 
+    vertical-align:top; 
+    background: url('images/cart-icon.png') no-repeat center center / 100% auto;
+    width: 50px;
+    height: 50px; 
+    margin-bottom: 50px;
+}
+

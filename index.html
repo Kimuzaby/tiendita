@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pro Store Online</title>
+    <meta charset="utf-8">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
+    <link rel="icon"  href="CSS/">
+    
+    <!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+		<!-- Slick -->
+		<link type="text/css" rel="stylesheet" href="css/slick.css"/>
+		<link type="text/css" rel="stylesheet" href="css/slick-theme.css"/>
+
+		<!-- nouislider -->
+		<link type="text/css" rel="stylesheet" href="css/nouislider.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+<body bgcolor="#CEF6F5">
+<script>
+
+	 $(document).ready(function(){
+     $("h2").hover(function(){
+     $("h2").css("background-color", "white");
+     },
+     function(){
+     $("h2").css("background-color", "#81F79F");
+    }); 
+    });
+	 //
+     $(document).ready(function(){
+     $("#A").click(function(){
+     $("#1").toggle(500);
+
+    });
+    });
+
+
+    $(document).ready(function(){
+    $("#a").click(function(){
+    $("#info").val("7 huevos - 1$");
+  });
+});
+
+    
+     //
+
+     $(document).ready(function(){
+     $("#B").click(function(){
+     $("#2").toggle(500);
+
+    });
+    });
+
+     $(document).ready(function(){
+    $("#b").click(function(){
+    $("#info").val("Aceite Vegetal Orisol - 1.60$");
+  });
+});
+
+     $(document).ready(function(){
+     $("#C").click(function(){
+     $("#3").toggle(500);
+
+    });
+    });
+     $(document).ready(function(){
+     $("#c").click(function(){
+     $("#info").val("Bolsa de azúcar blanca de 2 libras - 0.70$");
+  });
+});
+
+     $(document).ready(function(){
+     $("#D").click(function(){
+     $("#4").toggle(500);
+
+    });
+    });
+      $(document).ready(function(){
+      $("#d").click(function(){
+      $("#info").val("Desinfectante Fabuloso 750 ml - 1.50$");
+  });
+});
+
+     $(document).ready(function(){
+     $("#E").click(function(){
+     $("#5").toggle(500);
+
+    });
+    });
+     $(document).ready(function(){
+     $("#e").click(function(){
+     $("#info").val("Mascarilla quirúrgica - 0.75$");
+  });
+});
+
+
+     $(document).ready(function(){
+     $("#F").click(function(){
+     $("#6").toggle(500);
+
+    });
+    });
+     $(document).ready(function(){
+     $("#f").click(function(){
+     $("#info").val("Cartón de leche Salud - 1.75$");
+  });
+});
+
+
+	 $(document).ready(function(){
+     $("#G").click(function(){
+     $("#7").toggle(500);
+
+    });
+    });
+     $(document).ready(function(){
+     $("#g").click(function(){
+     $("#info").val("5 Libras de arroz - 3.25$");
+  });
+});
+
+
+	 $(document).ready(function(){
+     $("#H").click(function(){
+     $("#8").toggle(500);
+
+    });
+    });
+     $(document).ready(function(){
+     $("#h").click(function(){
+     $("#info").val("Gel Antibacterial - 2.00$");
+  });
+});
+
+     $(document).ready(function(){
+     $("#I").click(function(){
+     $("#9").toggle(500);
+
+    });
+    });
+     $(document).ready(function(){
+     $("#i").click(function(){
+     $("#info").val("Bolsa de frijoles - 2.75$");
+  });
+});
+
+     $(document).ready(function(){
+     $("#J").click(function(){
+     $("#10").toggle(500);
+
+    });
+    });
+     $(document).ready(function(){
+     $("#j").click(function(){
+     $("#info").val("Rollo de papel higiénico Rosal - 0.35$");
+  });
+});
+
+     $(document).ready(function(){
+     $("#K").click(function(){
+     $("#11").toggle(500);
+
+    });
+    });
+     $(document).ready(function(){
+     $("#k").click(function(){
+     $("#info").val("Par de Guantes - 1.50$");
+  });
+});
+
+     $(document).ready(function(){
+     $("#L").click(function(){
+     $("#12").toggle(500);
+
+    });
+    });
+     $(document).ready(function(){
+     $("#l").click(function(){
+     $("#info").val("Té de limón - 1.25$");
+  });
+});
+
+ 	 $(document).ready(function(){
+     $("#M").click(function(){
+     $("#13").toggle(500);
+
+    });
+    });
+     $(document).ready(function(){
+     $("#m").click(function(){
+     $("#info").val("Jabón Antibacterial - 1.25$");
+  });
+});
+
+$(document).ready(function(){
+     $("#N").click(function(){
+     $("#14").toggle(500);
+
+    });
+    });
+     $(document).ready(function(){
+     $("#n").click(function(){
+     $("#info").val("Libra de papa - 0.75$");
+  });
+});
+
+
+
+
+//Focus and Blur
+    $(document).ready(function(){
+    $("a").focus(function(){
+    $(this).css("background-color", "#1A5B8B");
+  	});
+    $("a").blur(function(){
+    $(this).css("background-color", "#ff7518");
+  	});
+	});
+
+
+
+////Mostrar productos
+
+
+	$(document).ready(function(){
+  	$("#c3").click(function(){
+    $(".product-item").hide(1000);
+  	});
+  	$("#c2").click(function(){
+    $(".product-item").show(1000);
+  });
+});
+
+
+	$(document).ready(function(){
+  	$("#c2").click(function(){
+    $(".product-item_0").hide(1000);
+  	});
+  	$("#c3").click(function(){
+    $(".product-item_0").show(1000);
+  });
+});
+
+
+	$(document).ready(function(){
+  	$("#c1").click(function(){
+    $(".product-item").show(1000);
+  	});
+});
+
+	$(document).ready(function(){
+  	$("#c1").click(function(){
+    $(".product-item_0").show(1000);
+  	});
+});
+
+
+
+
+
+
+	$(function() {
+	$("#add").on("click", function() {
+	var val = $("input").val();
+	if(val !== '') {
+	var elem = $("<li></li>").text(val);
+	$(elem).append("<button class='rem'> X </button>");
+	$("#mylist").append(elem);
+	$("input").val("");
+ 	$(".rem").on("click", function() {
+	$(this).parent().remove();
+				});
+			}
+		});
+	});
+
+
+//Calculo
+
+
+
+
+</script>
+
+
+
+
+
+<center>
+	<div class="Store">
+    		<h2 style="background-color: white">
+    					Pro Store Online
+    		</h2>
+
+</center>
+<form name="contact" method="POST" data-netlify="true">
+<div class="elemento_1">
+<h1>Carrito de compras</h1>
+        <input id="info" type="text" placeholder="Productos" name="comida"/>
+        <button type="button" id="add" class="btn btn-danger">Añadir</button>
+        <input type="submit" id="add" class="form-control submit-btn" value="¡Enviar!">
+        <ol id="mylist" style="background-color: blue;"></ol>
+</div>
+</form>
+
+
+
+<div class="Tiendita">
+	<div class="category_list">
+		<a id="c1" href="#" class="category_item" category="todo"> Todo </a>
+		<a id="c2" href="#" class="category_item" category="productos_dia"> Productos de primera necesidad</a>
+		<a id="c3" href="#" class="category_item" category="saneamiento"> Productos de sanitización</a>
+		
+
+	</div>
+
+
+	<section class="products-list">
+
+		<div class="product-item" category="productos_dia">
+        <center><img id="aja" src="Media/huevos.jpg"></center> 
+        <a href="#">Huevos</a>
+        <button id="A">Descripción y precio</button>
+        <button id="a">Añadir al carrito</button>
+        <p id="1" style="display: none"> Huevos frescos y de calidad <br> Precio: <b id="pr"> 1.00$ </b>los 7 huevos </p> <HR>
+        </div>
+
+        <div class="product-item" category="productos_dia">
+        <center><img src="Media/aceite.jpg"></center>
+        <a href="#">Aceite</a>
+        <button id="B">Descripción y precio</button> 
+        <button id="b">Añadir al carrito</button>
+        <p id="2"style="display: none">  Aceite Vegetal Orisol de cocina en presentación botella de 750Ml <br> Precio:<b id="pr">1.60$</b></p> <HR>
+        </div>
+
+        <div class="product-item" category="productos_dia">
+        <center><img src="Media/azucar.jpg"></center>
+        <a href="#">Azúcar</a>
+        <button id="C">Descripción y precio</button> 
+        <button id="c">Añadir al carrito</button>
+        <p id="3"style="display: none"> Azúcar Blanca Del Cañal - 2 libras <br> Precio:<b id="pr">0.70$</b></p> <HR>
+        </div>
+
+        <div class="product-item_0" category="saneamiento">
+        <center><img src="Media/desinfectante.jpg"></center>
+        <a href="#">Desinfectante</a>
+        <button id="D">Descripción y precio</button> 
+        <button id="d">Añadir al carrito</button>
+        <p id="4"style="display: none"> Desinfectante Fabuloso 750 ml <br> Precio:<b id="pr">1.50$</b></p> <HR>
+    	</div>
+
+    	<div class="product-item_0" category="saneamiento">
+        <center><img src="Media/mascarillas.jpg"></center>
+        <a href="#">Mascarilla</a>
+        <button id="E">Descripción y precio</button> 
+        <button id="e">Añadir al carrito</button>
+        <p id="5"style="display: none"> Mascarilla quirúrgica <br> Precio:<b id="pr">0.75$</b></p> <HR>
+        </div>
+
+        <div class="product-item" category="productos_dia">
+        <center><img src="Media/leche.jpg"></center>
+        <a href="#">Leche</a>
+        <button id="F">Descripción y precio</button>
+        <button id="f">Añadir al carrito</button>
+        <p id="6" style="display: none"> Cartón de leche Salud <br> Precio:<b id="pr"> 1.75$</b></p> <HR>
+        </div>
+
+        <div class="product-item" category="productos_dia">
+        <center><img src="Media/arroz.jpg"></center>
+        <a href="#">Arroz</a>
+        <button id="G">Descripción y precio</button>
+        <button id="g">Añadir al carrito</button>
+        <p id="7" style="display: none"> 5 Libras de arroz precosido San Francisco <br> Precio:<b id="pr"> 3.25$</b></p> <HR>
+        </div>
+
+        <div class="product-item_0" category="productos_dia">
+        <center><img src="Media/gel.jpg"></center>
+        <a href="#">Alcohol Gel</a>
+        <button id="H">Descripción y precio</button>
+        <button id="h">Añadir al carrito</button>
+        <p id="8" style="display: none"> Gel Antibacterial <br> Precio:<b id="pr"> 2.00$</b></p> <HR>
+        </div>
+
+        <div class="product-item" category="productos_dia">
+        <center><img src="Media/frijol.jpg"></center>
+        <a href="#">Frijoles</a>
+        <button id="I">Descripción y precio</button>
+        <button id="i">Añadir al carrito</button>
+        <p id="9" style="display: none"> Frijoles As de Oro <br> Precio:<b id="pr"> 2.75$</b></p> <HR>
+        </div>
+
+
+        <div class="product-item" category="productos_dia">
+        <center><img src="Media/papel.jpg"></center>
+        <a href="#">Papel higiénico</a>
+        <button id="J">Descripción y precio</button>
+        <button id="j">Añadir al carrito</button>
+        <p id="10" style="display: none"> Rollo de papel higiénico <br> Precio:<b id="pr"> 0.35$</b></p> <HR>
+        </div>
+
+        <div class="product-item_0" category="productos_dia">
+        <center><img src="Media/guantes.jpg"></center>
+        <a href="#">Guantes</a>
+        <button id="K">Descripción y precio</button>
+        <button id="k">Añadir al carrito</button>
+        <p id="11" style="display: none"> Par de guantes de latex <br> Precio:<b id="pr"> 1.50$</b></p> <HR>
+        </div>
+
+        <div class="product-item" category="productos_dia">
+        <center><img src="Media/té.jpg"></center>
+        <a href="#">Té de limón</a>
+        <button id="L">Descripción y precio</button>
+        <button id="l">Añadir al carrito</button>
+        <p id="12" style="display: none"> Té de limón Lipton <br> Precio:<b id="pr"> 1.25$</b></p> <HR>
+        </div>
+
+
+        <div class="product-item_0" category="productos_dia">
+        <center><img src="Media/jabón.jpg"></center>
+        <a href="#">Jabón antibacterial</a>
+        <button id="M">Descripción y precio</button>
+        <button id="m">Añadir al carrito</button>
+        <p id="13" style="display: none"> Jabón antibacterial <br> Precio:<b id="pr"> 1.25$</b></p> <HR>
+        </div>
+
+        <div class="product-item" category="productos_dia">
+        <center><img src="Media/patata.JPG"></center>
+        <a href="#">Libra de papa</a>
+        <button id="N">Descripción y precio</button>
+        <button id="n">Añadir al carrito</button>
+        <p id="14" style="display: none"> Libra de papa <br> Precio:<b id="pr"> 0.75$</b></p> <HR>
+        </div>
+ </div>
+
+        
+
+    </section>
+
+
+
+ 
+    
+
+</div>
+</body>
+</html>
